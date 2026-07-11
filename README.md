@@ -47,12 +47,10 @@ python main.py
 ### Ярлык в меню приложений (по желанию)
 
 ```bash
-# иконка приложения
-mkdir -p ~/.local/share/icons/hicolor/scalable/apps
-cp converter/ui/assets/icon.svg ~/.local/share/icons/hicolor/scalable/apps/converter.svg
-# сам ярлык (поправь Exec/Path внутри, если проект лежит не в ~/Code Projects/Converter)
-cp converter.desktop ~/.local/share/applications/
+./install.sh
 ```
+
+Скрипт скопирует иконку и создаст ярлык с путями под текущее расположение проекта.
 
 ## Структура проекта
 
