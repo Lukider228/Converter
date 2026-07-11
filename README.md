@@ -47,6 +47,10 @@ python main.py
 ### Ярлык в меню приложений (по желанию)
 
 ```bash
+# иконка приложения
+mkdir -p ~/.local/share/icons/hicolor/scalable/apps
+cp converter/ui/assets/icon.svg ~/.local/share/icons/hicolor/scalable/apps/converter.svg
+# сам ярлык (поправь Exec/Path внутри, если проект лежит не в ~/Code Projects/Converter)
 cp converter.desktop ~/.local/share/applications/
 ```
 
@@ -62,4 +66,5 @@ converter/
     main_window.py         — главное окно
     file_row.py            — карточка файла в списке
     theme.py               — тёмная тема (QSS)
+    assets/                — иконка приложения и элементы интерфейса (SVG)
 ```
