@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Converter
+Comment=Универсальный конвертер аудио, видео и изображений
+Exec="/home/lukider/Code Projects/Converter/run.sh"
+Path=/home/lukider/Code Projects/Converter
+Icon=converter
+Terminal=false
+Categories=AudioVideo;AudioVideoEditing;
